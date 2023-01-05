@@ -1,0 +1,11 @@
+.skills {
+	background-color: #E5E5E5;
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding: 1rem;
+
+	font-family: Raleway;
+
+}

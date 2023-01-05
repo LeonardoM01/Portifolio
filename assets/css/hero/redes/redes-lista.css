@@ -1,0 +1,9 @@
+.redes__lista {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px;
+	width: 100%;
+	list-style-type: none;
+}

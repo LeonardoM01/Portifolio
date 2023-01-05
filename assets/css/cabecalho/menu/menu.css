@@ -1,0 +1,17 @@
+.menu {
+	display: none;
+
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+	.menu {
+		display: flex;
+		width: 60%;
+		justify-content: flex-end;
+		text-decoration: none;
+	}
+	
+}

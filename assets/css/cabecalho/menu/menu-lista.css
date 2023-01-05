@@ -1,0 +1,9 @@
+.menu__lista {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	list-style-type: none;
+	text-decoration: none;
+	width: auto;
+}
+

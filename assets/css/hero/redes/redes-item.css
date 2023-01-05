@@ -1,0 +1,29 @@
+.redes__item {
+	text-decoration: none;
+	
+	font-size: 14px;
+
+	background-image: url(../../../img/seta.svg);
+	background-size: 10.67px;
+	background-repeat: no-repeat;
+}
+
+.redes__item:first-child {
+	background-position: top 0.25rem left 3rem;
+	width: 61px;
+}
+
+.redes__item:nth-child(2) {
+	background-position: top 0.25rem left 3.6rem;
+	width: 73px;
+}
+
+.redes__item:nth-child(3) {
+	background-position: top 0.25rem left 4.2rem;
+	width: 83px;
+}
+
+.redes__item:nth-child(4) {
+	background-position: top 0.25rem left 3.8rem;
+	width: 77px;
+}
