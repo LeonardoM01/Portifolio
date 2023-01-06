@@ -57,7 +57,18 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/experiencias/experiencia-descricao.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/experiencias/experiencia-botoes.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/experiencias/experiencia-botao.css">
-
+    <link rel="stylesheet" type="text/css" href="./assets/css/contato/contato.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/contato/contato-formulario.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/contato/mensagem/contato-mensagem.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/contato/mensagem/contato-mensagem--descricao.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/contato/mensagem/contato-mensagem--titulo.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/contato/campos/campos.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/contato/campos/campo.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/contato/campos/campo-botao.css"
+    >
+    <link rel="stylesheet" type="text/css" href="./assets/css/contato/campos/campo-label.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/contato/campos/campo-input.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/rodape.css">
 
 
 
@@ -79,7 +90,6 @@
 		</nav>
 		<a class="email__link" href="">leonardomiguelvs84@gmail.com</a>
 	</header>
-
 	<main>
 		<section class="hero">
 			<div class="hero__img-container">
@@ -153,20 +163,68 @@
 				<h3 class="formacao__data">2017 - Senai Mariano Ferraz</h3>
 			</div>
 		</section>
-
 		<section class="experiencias">
 			<h2 class="experiencias__titulo">Experiência profissional</h2>
 			<div class="experiencia">
 				<img src="./assets/img/experiencias/decodificador.png" alt="Print Decodificador" class="experiencia__img">
 				<h2 class="experiencia__titulo">Decodificador de texto</h2>
 				<h3 class="experiencia__descricao">Challenge Alura Codificador</h3>
-			</div>
-			<div class="experiencia__botoes">
+
+				<div class="experiencia__botoes">
 				<a href="" class="experiencia__botao">Repositório</a>
-				<a href="" class="experiencia__botao">Ver demo</a>
+				<a href="" class="experiencia__botao demo">Ver demo</a>
+				</div>
 			</div>
 
+			<div class="experiencia">
+				<img src="./assets/img/experiencias/decodificador.png" alt="Print Decodificador" class="experiencia__img">
+				<h2 class="experiencia__titulo">Jogo da Forca</h2>
+				<h3 class="experiencia__descricao">Challenge Alura Jogo</h3>
+
+				<div class="experiencia__botoes">
+				<a href="" class="experiencia__botao">Repositório</a>
+				<a href="" class="experiencia__botao demo">Ver demo</a>
+				</div>
+			</div>
 		</section>
+		<section class="contato">
+			<div class="contato__formulario">
+				<div class="contato__mensagem">
+					<h2 class="contato__mensagem-titulo">Contato</h2>
+					<h3 class="contato__mensagem-descricao">Quer entrar em contato comigo?<br>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</h3>
+				</div>
+				<form class="campos">
+					<div class="campo__input">
+						<label class="campo__label" for="nome">Nome</label>
+						<input type="text"  id="nome" class="campo nome" required>
+					</div>
+
+					<div class="campo__input">
+						<label class="campo__label" for="email">E-mail</label>
+						<input type="email" id="email" class="campo email" required>
+					</div>
+
+					<div class="campo__input">
+						<label class="campo__label" for="email">Assunto</label>
+						<input type="text" id="assunto" class="campo assunto" required>
+					</div>
+					
+					<div class="campo__input campo__mensagem">
+						<label class="campo__label" for="assunto">Mensagem</label>
+						<textarea name="text" id="mensagem" required class="campo mensagem" required></textarea>
+					</div>
+					<input type="submit" id="mensagem" name="Enviar" value="Enviar Mensagem" class="campo__botao">
+					
+					
+					
+					
+				</form>
+			</div>
+		</section>
+
+		<footer class="rodape">
+			<h2 class="rodape__texto">Desenvolvido por Leonardo Miguel<br>2023</h2>
+		</footer>
 		
 	</main>
 

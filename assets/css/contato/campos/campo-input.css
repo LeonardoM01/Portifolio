@@ -1,0 +1,17 @@
+.campo__input {
+	display: flex;
+	flex-direction: column;
+	height: 56px;
+	background-color: #FFFFFF;
+	margin-bottom: 2rem;
+	border-radius: 4px;
+	padding: 8px 12px 0;
+}
+
+.campo__input:focus-within {
+	border-bottom: 1px solid #2A7AE4;
+}
+
+.campo__input.campo__mensagem {
+	height: 133px;
+}

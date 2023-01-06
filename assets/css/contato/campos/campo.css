@@ -1,0 +1,17 @@
+.campo {
+	margin-top: 4px;
+	height: 20px;
+	width: auto;
+	border: none;
+
+	font-size: 1rem;
+	color: #464646;
+}
+
+.campo.mensagem {
+	height: 100px;
+}
+
+.campo:focus-visible {
+	outline: none;
+}
