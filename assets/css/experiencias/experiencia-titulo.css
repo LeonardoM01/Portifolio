@@ -6,3 +6,10 @@
 	color: #464646;
 	margin: 1rem 0 0.5rem;
 }
+
+@media screen and (min-width: 1440px){
+	.experiencia__titulo {
+		font-size: 22px;
+		line-height: 26px;
+	}
+}

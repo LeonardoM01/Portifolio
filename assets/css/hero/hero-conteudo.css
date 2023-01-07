@@ -6,5 +6,31 @@
 	font-weight: 700;
 	line-height: 26px;
 	margin: 16px 0;
-	text-align: justify;
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+	.hero__conteudo {
+		text-align: left;
+	}
+
+	.hero__informacoes {
+		width: 70%;
+		order: -1;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.hero__conteudo {
+		font-weight: 700;
+		font-size: 52px;
+		line-height: 61px;
+
+	}
+
+	.hero__informacoes {
+		width: 64%;
+		order: -1;
+	}
+
 }

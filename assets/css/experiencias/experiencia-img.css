@@ -1,3 +1,9 @@
 .experiencia__img {
 	width: 98%
 }
+
+@media screen and (min-width: 1440px) {
+	.experiencia__img {
+		max-width: 752px;
+	}
+}

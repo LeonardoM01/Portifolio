@@ -1,6 +1,12 @@
 .sobre {
 	padding: 1rem;
 	font-family: Raleway;
-	height: 350px;
+	height: auto;
 	background: #EAF2FD
+}
+
+@media screen and (min-width: 1440px) {
+	.sobre {
+		padding: 2rem 152px 2rem;
+	}
 }

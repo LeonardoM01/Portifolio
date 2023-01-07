@@ -1,8 +1,8 @@
 .redes__lista {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
+	justify-content: flex-start;
+	
 	padding: 0px;
 	width: 100%;
 	list-style-type: none;

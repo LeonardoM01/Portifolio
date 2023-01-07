@@ -9,3 +9,10 @@
 	margin-bottom: 8px;
 
 }
+
+@media screen and (min-width: 1440px) {
+	.contato__mensagem-titulo {
+		font-size: 32px;
+		line-height: 38px
+	}
+}

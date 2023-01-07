@@ -2,3 +2,9 @@
 	margin-top: 1rem;
 	width: 8.75rem;
 }
+
+@media screen and (min-width: 1440px) {
+	.sobre__assinatura {
+		width: 14.75rem;
+	}
+}

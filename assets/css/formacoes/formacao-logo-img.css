@@ -6,3 +6,15 @@
 	width: auto;
 	height: 50%;
 }
+
+@media screen and (min-width: 1440px) {
+	.formacao__logo--img {
+		margin-top: 78px;
+		width: 192px;
+		height: 130px;
+	}
+	.formacao__logo--img.png {
+		width: 192px;
+		height: 40%;
+	}
+}

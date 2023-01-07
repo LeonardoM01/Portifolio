@@ -1,5 +1,5 @@
 .sobre__descricao {
-	height: 13rem;
+	height: auto;
 	color: #464646;
 	font-size: 14px;
 	font-weight: 400;
@@ -7,4 +7,11 @@
 	line-height: 16px;
 	text-align: left;
 
+}
+
+@media screen and (min-width: 1440px) {
+	.sobre__descricao {
+		font-size: 19px;
+		line-height: 22px;
+	}
 }

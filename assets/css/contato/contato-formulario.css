@@ -1,6 +1,11 @@
 .contato__formulario {
-	padding: 2rem;
-	
 
+}
 
+@media screen and (min-width: 1440px) {
+	.contato__formulario {
+		background-image: url(../../img/contato.png);
+		background-repeat: no-repeat;
+		background-size: 464px 593px;
+	}
 }

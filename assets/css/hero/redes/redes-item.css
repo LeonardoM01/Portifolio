@@ -6,24 +6,53 @@
 	background-image: url(../../../img/seta.svg);
 	background-size: 10.67px;
 	background-repeat: no-repeat;
+	margin-right: 8.46px;
 }
 
 .redes__item:first-child {
-	background-position: top 0.25rem left 3rem;
+	background-position: top 0.2rem left 3rem;
 	width: 61px;
 }
 
 .redes__item:nth-child(2) {
-	background-position: top 0.25rem left 3.6rem;
-	width: 73px;
+	background-position: top 0.25rem left 3.8rem;
+	width: 75px;
 }
 
 .redes__item:nth-child(3) {
-	background-position: top 0.25rem left 4.2rem;
+	background-position: top 0.25rem left 4.4rem;
 	width: 83px;
 }
 
 .redes__item:nth-child(4) {
-	background-position: top 0.25rem left 3.8rem;
+	background-position: top 0.25rem left 4rem;
 	width: 77px;
+}
+
+@media screen and (min-width: 768px) {
+	.redes__item {
+		margin-right: 32.69px;
+		font-size: 16px;
+	}
+
+	.redes__item:first-child {
+		background-position: top 0.25rem left 60px;
+		width: 78px;
+	}
+
+	.redes__item:nth-child(2) {
+		background-position: top 0.25rem left 70px;
+		width: 92px;
+	}
+
+	.redes__item:nth-child(3) {
+		background-position: top 0.25rem left 85px;
+		width: 104px;
+	}
+
+	.redes__item:nth-child(4) {
+		background-position: top 0.25rem left 75px;
+		width: 97px;
+	}
+
 }

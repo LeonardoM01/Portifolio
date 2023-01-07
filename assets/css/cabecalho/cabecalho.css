@@ -6,3 +6,9 @@
 	padding: 16px;
 	background-color: #E5E5E5;
 }
+
+@media screen and (min-width: 1440px) {
+	.cabecalho {
+		padding: 34.5px 152px 0;
+	}
+}

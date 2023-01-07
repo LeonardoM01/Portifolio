@@ -3,3 +3,10 @@
 	font-family: 'Raleway';
 
 }
+
+
+@media screen and (min-width: 1440px) {
+	.experiencias {
+		padding: 32px 152px 32px;
+	}
+}
