@@ -1,0 +1,10 @@
+.input-mensagem-erro {
+    display: none;
+}
+
+.input-container--invalido .input-mensagem-erro {
+    color: #A2A2A2;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0;
+}

@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" type="text/css" href="./assets/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/inputs.css">
 
     <link rel="stylesheet" type="text/css" href="./assets/css/cabecalho/cabecalho.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/cabecalho/logo/logo.css">
@@ -229,25 +230,30 @@
 					<h2 class="contato__mensagem-titulo">Contato</h2>
 					<h3 class="contato__mensagem-descricao">Quer entrar em contato comigo?<br>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</h3>
 				</div>
-				<form class="campos">
+				<form action="https://formsubmit.co/leonardomiguelvs84@gmail.com" method="POST" class="campos">
+					<input type="hidden" name="_captcha" value="false">
 					<div class="campo__input">
 						<label class="campo__label" for="nome">Nome</label>
-						<input type="text"  id="nome" class="campo nome" required>
+						<input type="text"  id="nome" class="campo nome" pattern="[A-z ]{0,50}" data-tipo="nome" required>
+						<span class="input-mensagem-erro"></span>
 					</div>
 
 					<div class="campo__input">
 						<label class="campo__label" for="email">E-mail</label>
-						<input type="email" id="email" class="campo email" required>
+						<input type="email" id="email" class="campo email" data-tipo="email" required>
+						<span class="input-mensagem-erro"></span>
 					</div>
 
 					<div class="campo__input">
-						<label class="campo__label" for="email">Assunto</label>
-						<input type="text" id="assunto" class="campo assunto" required>
+						<label class="campo__label" for="assunto">Assunto</label>
+						<input type="text" id="assunto" class="campo assunto" pattern="[A-z ]{0,50}" data-tipo="assunto" required>
+						<span class="input-mensagem-erro"></span>
 					</div>
 					
 					<div class="campo__input campo__mensagem">
-						<label class="campo__label" for="assunto">Mensagem</label>
-						<textarea name="text" id="mensagem" required class="campo mensagem" required></textarea>
+						<label class="campo__label" for="mensagem">Mensagem</label>
+						<textarea inputmode="text" name="text" id="mensagem" class="campo mensagem" maxlength="300" data-tipo="mensagem" required></textarea>
+						<span class="input-mensagem-erro"></span>
 					</div>
 					<input type="submit" id="mensagem" name="Enviar" value="Enviar Mensagem" class="campo__botao">
 					
@@ -261,5 +267,7 @@
 	<footer class="rodape">
 			<h2 class="rodape__texto">Desenvolvido por Leonardo Miguel<br>2023</h2>
 	</footer>
+
+	<script src="./assets/js/app.js" type="module"></script>
 </body>
 </html>
