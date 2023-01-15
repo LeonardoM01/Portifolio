@@ -1,0 +1,22 @@
+{
+  "name": "portifolio",
+  "version": "1.0.0",
+  "description": "meu(Leonardo Miguel)  portifolio profissional",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoM01/Sprint-1.git"
+  },
+  "keywords": [
+    "78124596Leo"
+  ],
+  "author": "Leonardo Miguel Vieira Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonardoM01/Sprint-1/issues"
+  },
+  "homepage": "https://github.com/LeonardoM01/Sprint-1#readme"
+}
