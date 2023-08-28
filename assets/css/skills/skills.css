@@ -20,7 +20,8 @@
 
 @media screen and (min-width: 1440px) {
 	.skills {
-		justify-content: flex-start;
+		display: flex;		
+		justify-content: center;
 		gap: 1rem;
 		padding: 2rem 152px 2rem;
 	}
